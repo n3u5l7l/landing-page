@@ -117,3 +117,26 @@ button{
     text-align: center;
     
 }
+/*THIRD LAYER*/
+.third{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color: #E5E7EB;
+    padding:150px;
+    height:130px;
+}
+.quote{
+    font-size:36px;
+    font-style:italic;
+    color:#1F2937;
+    margin:0 190px;
+    
+}
+.signature{
+    display:flex;
+    justify-content:flex-end;
+    margin-right:230px;
+    font-weight:bold;
+    font-size:20px;
+}
