@@ -140,3 +140,38 @@ button{
     font-weight:bold;
     font-size:20px;
 }
+/*FOURTH LAYER*/
+.fourth{
+    display:flex;
+    flex:1;
+    padding:100px;
+}
+.fourthcontainer{
+    background-color:#3882F6;
+    display:flex;
+    justify-content:space-between;
+    flex:1;
+    padding:50px;
+    border-radius: 8px;
+}
+.fourthtext, .fourthbutton, .fourthcontainer{
+    margin:0 90px;
+}
+.fourthtext .firsttext{
+    color:white;
+    font-size:26px;
+    font-weight:bold;
+
+}
+.fourthtext .secondtext{
+    color:#F9FAF8;
+    font-size:18px;
+
+}
+.fourthbutton{
+    border-radius: 8px;
+    border:2px solid white;
+    margin-top:10px;
+    font-weight:bold;
+    color:#F9FAF8;
+}
